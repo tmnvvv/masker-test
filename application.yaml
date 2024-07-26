@@ -6,5 +6,10 @@ masker:
   source-dir: '/home/nikolay/coding/sber/temp/KA_DZO'
   target-dir: '/home/nikolay/coding/sber/temp/target-dir'
   dictionary:
-    company-name: 'OOO Test'
-    company-prefix: 'test'
+    - replace: 'sber'
+      to: 'test'
+    - replace: 'Сбер'
+      to: 'ООО Тест'
+    - replace: 'ЕФС'
+      to: 'NNNNNN'
+
