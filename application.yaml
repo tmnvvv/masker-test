@@ -12,4 +12,8 @@ masker:
       to: 'ООО Тест'
     - replace: 'ЕФС'
       to: 'NNNNNN'
+    - replace: 'Предоставлен'
+      to: 'Новоеслово'
+    - replace: 'Архитектурн'
+      to: 'aaaaaaaaaaaaaa'
 
