@@ -3,8 +3,8 @@ spring:
     name: masker
 
 masker:
-  source-dir: '/home/nikolay/coding/sber/temp/KA_DZO'
-  target-dir: '/home/nikolay/coding/sber/temp/target-dir'
+  source-dir: '/home/nikolay/coding/sber/temp/arch'
+  target-dir: '/home/nikolay/coding/sber/temp/to'
   dictionary:
     - replace: 'sber'
       to: 'test'
